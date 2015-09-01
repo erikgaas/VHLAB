@@ -43,7 +43,7 @@ class Heart():
 			for row in data:
 				for field in row:
 					if "Visible Heart (functional)" in field and is_heart_in_list(self.name, row[field]):
-						return True
+						self.functional = True
 			
 	def is_perfusion_fixed(self, data): #If title is Perfusion Fixed (endoscope)
 		if self.perfusion:
@@ -52,7 +52,7 @@ class Heart():
 			for row in data:
 				for field in row:
 					if "Perfusion Fixed (endoscope)" in field and is_heart_in_list(self.name, row[field]):
-						return True
+						self.perfusion = True
 	def is_anatomical_plates(self, data): #If title is Anatomical Plates
 		if self.anatomical_plate:
 			return
@@ -60,7 +60,7 @@ class Heart():
 			for row in data:
 				for field in row:
 					if "Anatomical Plates" in field and is_heart_in_list(self.name, row[field]):
-						return True
+						self.anatomical_plate = True
 	def is_prefixed(self, data): #If title is Pre-fixed Anatomical Plates
 		if self.prefixed:
 			return
@@ -68,7 +68,7 @@ class Heart():
 			for row in data:
 				for field in row:
 					if "Perfusion Fixed (endoscope)" in field and is_heart_in_list(self.name, row[field]):
-						return True
+						self.prefixed = True
 	def is_comp_imaging(self, data): #If title is Comparative Imaging
 		if self.comp_imaging:
 			return
@@ -76,7 +76,7 @@ class Heart():
 			for row in data:
 				for field in row:
 					if "Comparative Imaging" in field and is_heart_in_list(self.name, row[field]):
-						return True
+						self.comp_imaging = True
 	def is_cardiac_mri(self, data): #Dang last guy doesnt work
 		if self.cardiac_mri:
 			return
@@ -84,7 +84,7 @@ class Heart():
 			for row in data:
 				for field in row:
 					if "Cardiac MRI" in field and is_heart_in_list(self.name, row[field]):
-						return True
+						self.cardiac_mri = True
 	def is_cor_venous(self, data): #If title is Venous
 		if self.cor_venous:
 			return
@@ -92,7 +92,7 @@ class Heart():
 			for row in data:
 				for field in row:
 					if "Venous" in field and is_heart_in_list(self.name, row[field]):
-						return True
+						self.cor_venous = True
 	def is_cor_arterial(self, data): #If title is Arterial
 		if self.cor_arterial:
 			return
@@ -100,7 +100,7 @@ class Heart():
 			for row in data:
 				for field in row:
 					if "Arterial" in field and is_heart_in_list(self.name, row[field]):
-						return True
+						self.cor_arterial = True
 	def is_cor_both(self, data): #If title is combined
 		if self.cor_both:
 			return
@@ -108,7 +108,7 @@ class Heart():
 			for row in data:
 				for field in row:
 					if "combined" in field and is_heart_in_list(self.name, row[field]):
-						return True
+						self.cor_both = True
 	def is_blood_vol(self, data): #If title is Hypertrophic, Dilated Cardiomyopathy, Normal, or Pediatric
 		if self.blood_vol:
 			return
@@ -116,7 +116,7 @@ class Heart():
 			for row in data:
 				for field in row:
 					if ("Hypertrophic" in field or "Dilated Cardiomyopathy" in field or "Normal" in field or "Pediatric" in field) and is_heart_in_list(self.name, row[field]):
-						return True
+						self.blood_vol = True
 
 
 
@@ -243,4 +243,4 @@ for heart in hearts:
 	heart.is_blood_vol(data)
 
 for heart in hearts:
-	print(heart.is_prefixed)
+	print(heart.functional)
