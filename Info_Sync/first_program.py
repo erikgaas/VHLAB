@@ -240,7 +240,7 @@ for heart in hearts:
 	heart.is_cor_venous(data)
 	heart.is_cor_arterial(data)
 	heart.is_cor_both(data)
-	self.is_blood_vol(data)
+	heart.is_blood_vol(data)
 
 for heart in hearts:
 	print(heart.is_prefixed)
