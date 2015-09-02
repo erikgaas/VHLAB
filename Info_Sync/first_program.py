@@ -148,7 +148,10 @@ def get_hearts():
 	#Get all of the trs
 	all_trs = second_table2.find_all('tr')[1:]
 	#Filter out the number
-	return [Heart("Heart" + tr.find('td').getText()) for tr in all_trs]
+
+	added_hearts = [Heart("Heart0" + str(i)) for i in range(285,366)]
+
+	return [Heart("Heart" + tr.find('td').getText()) for tr in all_trs] + added_hearts
 
 
 def get_all_pages():
@@ -246,16 +249,17 @@ for heart in hearts:
 with open("heart_results.csv", "w") as f:
 	f.write("Heart Number,Visible Heart (functional),Perfusion Fixed (endoscope),Anatomical Plates,Pre-fixed Anatomical Plates,Comparative Imaging,Cardiac MRI,Coronary Vasculature Models (Venous),Coronary Vasculature Models (Arterial),Coronary Vasculature Models (Both),Blood Volume and Tissue Models\n")
 	for heart in hearts:
-		f.write(heart.name[5:] + ",")
-		f.write("Yes," if heart.functional else ",")
-		f.write("Yes," if heart.perfusion else ",")
-		f.write("Yes," if heart.anatomical_plate else ",")
-		f.write("Yes," if heart.prefixed else ",")
-		f.write("Yes," if heart.comp_imaging else ",")
-		f.write("Yes," if heart.cardiac_mri else ",")
-		f.write("Yes," if heart.cor_venous else ",")
-		f.write("Yes," if heart.cor_arterial else ",")
-		f.write("Yes," if heart.cor_both else ",")
-		f.write("Yes\n" if heart.blood_vol else "\n")
+		if heart.functional or heart.perfusion or heart.anatomical_plate or heart.prefixed or heart.comp_imaging or heart.cardiac_mri or heart.cor_venous or heart.cor_arterial or heart.cor_both or heart.blood_vol:
+			f.write(heart.name[5:] + ",")
+			f.write("Yes," if heart.functional else ",")
+			f.write("Yes," if heart.perfusion else ",")
+			f.write("Yes," if heart.anatomical_plate else ",")
+			f.write("Yes," if heart.prefixed else ",")
+			f.write("Yes," if heart.comp_imaging else ",")
+			f.write("Yes," if heart.cardiac_mri else ",")
+			f.write("Yes," if heart.cor_venous else ",")
+			f.write("Yes," if heart.cor_arterial else ",")
+			f.write("Yes," if heart.cor_both else ",")
+			f.write("Yes\n" if heart.blood_vol else "\n")
 
 
