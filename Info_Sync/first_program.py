@@ -67,7 +67,7 @@ class Heart():
 		else:
 			for row in data:
 				for field in row:
-					if "Perfusion Fixed (endoscope)" in field and is_heart_in_list(self.name, row[field]):
+					if "Pre-fixed Anatomical Plates" in field and is_heart_in_list(self.name, row[field]):
 						self.prefixed = True
 	def is_comp_imaging(self, data): #If title is Comparative Imaging
 		if self.comp_imaging:
