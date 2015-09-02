@@ -107,7 +107,7 @@ class Heart():
 		else:
 			for row in data:
 				for field in row:
-					if "combined" in field and is_heart_in_list(self.name, row[field]):
+					if "Combined" in field and is_heart_in_list(self.name, row[field]):
 						self.cor_both = True
 	def is_blood_vol(self, data): #If title is Hypertrophic, Dilated Cardiomyopathy, Normal, or Pediatric
 		if self.blood_vol:
@@ -212,7 +212,7 @@ def get_sub_page_info(url):
 			title = maybe_img['alt']
 		else:
 			title = par_prev_sibling.find('td').getText()
-		sub_dict[title] = [extra + option.getText() for option in form.find_all('option')[1:]]
+		sub_dict[extra + title] = [option.getText() for option in form.find_all('option')[1:]]
 	return sub_dict
 
 def is_heart_in_list(name, ls):
@@ -242,5 +242,20 @@ for heart in hearts:
 	heart.is_cor_both(data)
 	heart.is_blood_vol(data)
 
-for heart in hearts:
-	print(heart.functional)
+
+with open("heart_results.csv", "w") as f:
+	f.write("Heart Number,Visible Heart (functional),Perfusion Fixed (endoscope),Anatomical Plates,Pre-fixed Anatomical Plates,Comparative Imaging,Cardiac MRI,Coronary Vasculature Models (Venous),Coronary Vasculature Models (Arterial),Coronary Vasculature Models (Both),Blood Volume and Tissue Models\n")
+	for heart in hearts:
+		f.write(heart.name[5:] + ",")
+		f.write("Yes," if heart.functional else ",")
+		f.write("Yes," if heart.perfusion else ",")
+		f.write("Yes," if heart.anatomical_plate else ",")
+		f.write("Yes," if heart.prefixed else ",")
+		f.write("Yes," if heart.comp_imaging else ",")
+		f.write("Yes," if heart.cardiac_mri else ",")
+		f.write("Yes," if heart.cor_venous else ",")
+		f.write("Yes," if heart.cor_arterial else ",")
+		f.write("Yes," if heart.cor_both else ",")
+		f.write("Yes\n" if heart.blood_vol else "\n")
+
+
