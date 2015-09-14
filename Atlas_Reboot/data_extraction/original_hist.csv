@@ -1,0 +1,192 @@
+,Heart Number,Sex,Age,BMI,body Weight (kg),Body Height (cm),Cardiac Medical History (Acronym Table Below),Systemic Medical History
+0,2,M,64,25.0,79.1,178,Hypertension,History of smoking.
+1,3,M,75,29.2,82.0,168,-,History of tobacco use.
+2,4,M,58,27.7,87.7,178,"Unspecified heart murmur medication, blood transfusion.",History of smoking.
+3,5,F,54,34.5,79.8,152,-,-
+4,6,M,62,39.3,117.7,173,Hypertension.,Diabetes mellitus.
+5,7,F,48,19.3,54.4,168,None known.,Non-small cell lung cancer.
+6,8,M,53,26.3,93.0,188,None known.,History of smoking.
+7,9,F,63,26.0,75.0,170,None known.,History of smoking.
+8,10,F,85,-,90.7,-,"Hypertension, AF, CHF, CAD, cardiomyopathy.","Adult onset diabetes chronic renal failure, cerebrovascular disease, COPD, hypothyroidism."
+9,11,M,28,27.2,91.0,183,Significant tachycardia.,History of smoking and substance abuse.
+10,12,F,54,-,-,-,"Hypertension, non-ischemic myopathy, bi-ventricular pacemaker.","Multi-organ system failure, sepsis syndrome, intestinal pseudo-obstruction."
+11,13,F,63,22.5,63.5,168,None known.,History of smoking.
+12,14,F,53,41.2,99.0,155,"Hypotension, cardiomegaly, history of blood transfusion, hyperlipidemia.",Seizure disorder.
+13,15,M,36,31.7,97.0,175,Hypertension.,History of smoking.
+14,16,M,44,15.9,47.6,173,-,-
+15,17,M,48,30.9,87.2,168,Hypertension.,-
+16,18,M,66,35.4,96.3,165,Unspecified heart disease.,Cacinoma of lung with metastasis.
+17,19,F,75,-,-,-,Aortic plaques near aortic branches and arch.,"COPD, emphysema, cerebrovascular hemorrhage."
+18,20,F,96,20.6,56.2,165,"Atherosclerosis of aorta, no other cardiac history known.",None known.
+19,21,M,65,53.4,154.2,170,None known.,COPD.
+20,22,F,,-,-,-,-,-
+21,23,F,46,26.7,68.3,160,"Hypercholesterolemia, hyperlidipemia.",History of smoking.
+22,24,-,,-,-,-,-,-
+23,26,M,71,27.7,89.8,180,"Mechanical aortic valve, 2 CABG operations (single and triple bypass grafts), hypertension, enlarged heart, QRS widening, inferior infarct, ventrical hypertrophy, AF, heart valve replacement.",History of diabetes and asthma.
+24,32,F,69,32.4,86.2,163,"RA & RV lesion, stenting.",Cerebrovascular disease.
+25,34,M,67,21.5,73.5,185,Implanted defibrillator w/leads and can attached; pacemaker; tachycardia,-
+26,35,F,68,43.9,127.0,170,None known.,History of leukemia and chemotherapy.
+27,36,F,63,20.1,53.3,163,None known.,Lung cancer.
+28,37,F,67,21.1,54.0,160,"Hypertension, hypercholesterolemia.",History of smoking and alcohol abuse.
+29,42,F,73,40.6,103.9,160,"CHF, hypertension, left internal carotid artery occlusion.","COPD, anemia, type II diabetes, elevated cholesterol."
+30,44,-,,-,-,-,-,-
+31,46,M,62,29.4,95.2,180,"1Â° AV block, hypertension.","Diabetes, history of smoking."
+32,47,F,64,45.8,124.7,165,Hypertension.,"End stage COPD, anemia."
+33,48,F,39,32.9,87.0,163,None known.,None known.
+34,49,F,23,19.8,54.0,165,Hypertension.,"Type I diabetes, anemia."
+35,50,F,64,29.0,81.6,168,"CAD, CHF.",Diabetes.
+36,51,F,78,40.4,100.1,157,Hypertension.,"Diabetes, thyroid cancer."
+37,52,F,53,27.5,74.8,165,Hypertension (6 yrs).,None known.
+38,53,M,66,28.4,95.0,183,Hypertension.,Lyme's disease.
+39,54,M,79,30.0,97.1,180,AF (3 yrs).,"History of smoking (10 years), osteoarthritis."
+40,55,M,51,-,-,175,-,-
+41,56,F,92,20.0,54.4,165,"Tachycardia, hypothyroidism.",None known.
+42,57,M,51,24.4,86.2,188,-,"Arthritis, renal cancer, history of obesity, kidney removal."
+43,58,M,59,43.2,129.2,173,"AF (5 yrs), hypertension (20 yrs), transient ischemic attack.","History of smoking (43 years), GERD."
+44,59,F,58,20.7,53.0,160,No documented abnormalities.,"Diverticulitis, osteroperosis, history of smoking (43 years)."
+45,60,M,60,23.5,80.4,185,None known.,"History of tobacco use (44 years), arthritis."
+46,61,M,57,19.9,61.0,175,History of MI.,"History of smoking, alcohol and substance abuse."
+47,62,M,56,38.4,124.5,180,"AF, hemochromatosis, hypertension (7-8 yrs).",Colon cancer.
+48,63,F,59,19.9,53.0,163,None known.,-
+49,64,F,89,20.5,54.4,163,None known.,Diabetes mellitus.
+50,65,M,97,22.9,72.6,178,Pacemaker.,-
+51,69,M,52,30.9,84.0,165,Cardiac arrest.,History of COPD.
+52,70,M,69,23.7,63.0,163,"Sinus bradycardia, hyperlipidemia, LVH.",History of smoking.
+53,71,M,82,20.9,59.0,168,"CAD, MI.","COPD, Non-Hodgkins Lymphoma, emphysema."
+54,72,F,70,18.8,54.4,170,None known.,"Lung carcinoma, chronic airway obstruction, history of smoking and alcohol abuse."
+55,73,M,7,17.7,27.4,124,None known.,None known.
+56,74,F,60,15.9,40.8,160,None known.,"Bronchiogenic metastatic cancer, hyponatremia, history of hydrocephalus."
+57,75,F,58,22.0,60.0,165,"PVD, hypertension, hyperlipidemia.","History of smoking, gastroesophageal reflux disease."
+58,76,F,66,20.9,53.6,160,"LVH, borderline RAE, hypertension, CAD, cardiac stents, atrial fibrillation, transient eschemic attack and strokes.","Diabetes mellitus, systemis lupus, rheumatoid arthritis."
+59,77,F,66,27.6,80.0,170,Hypertension (2 yrs).,"History of smoking, hemachromatosis, Lymes disease."
+60,78,F,63,28.3,80.0,168,None known.,"Grave's disease, hypothyroidism, history of smoking, osteoporosis."
+61,79,F,87,22.3,59.0,163,"AF, valve dysfunction.","Lung cancer, brain metastasis."
+62,83,M,56,31.5,91.2,170,None known.,History of smoking
+63,84,M,36,33.5,103.0,175,"Moderate LVH, LAE, dilated IVC, hypertension, cardiac arrhythmia.",History of smoking and alcoholism.
+64,85,F,67,25.0,54.1,147,"Hypertension, hypercholesterolemia.","Previous aneurism 25 years ago, history of smoking."
+65,86,M,84,30.2,100.1,182,Chronic AF.,"Middle cerebral artery ischemic infarction with hemorrhagic transformation, diabetes insipidus, history of tobacco use, pancreatitis."
+66,87,M,36,31.2,110.2,188,"Short term pacemaker, mild enlargement of heart.","History of ventilator dependence and tracheostomy, MRSA, recurrent pneumonia, history tobacco use (20 years), quadriplegia.."
+67,88,M,53,23.1,74.7,180,Sinus bradycardia with sinus arrhythmia.,History of smoking (10 years) and alcohol abuse.
+68,89,F,73,22.7,60.0,163,"Hypertension, hyperlipidemia, AF.","Left MCA aneurysm, pulmonary fibrosis, history of smoking (55 years), COPD, osteoporosis."
+69,90,M,61,32.7,105.9,180,"MI, 3 coronary stents placed, enlarged heart.",None known.
+70,92,F,68,33.3,88.0,163,"CHF, MI, hypertension.","Parkinson's disease, history of smoking (18 years), COPD."
+71,93,-,-,-,-,-,None known.,-
+72,94,F,64,18.4,52.0,168,"Hypertension, CAD, CHF, MI, dyslipidemia.","Previous cerebrovascular accident with left hemiplegia, GERD, chronic renal insufficiency, history of smoking (30 years)."
+73,96,M,54,29.6,85.5,170,"Hypertension (10+ yrs), semilunar valvular regurgitation.","Diabetes mellitus, renal failure, history of smoking (5 years), stroke."
+74,97,F,68,24.7,65.5,163,"Hypertension (30+ years), moderate to severe aortic plaque, sinus bradycardia.",History of stoke (5 years prior).
+75,98,M,64,23.7,79.4,183,None known.,Colon cancer with metastasis.
+76,99,M,46,33.8,100.0,172,"Severe RCA CAD, drug-eluting stent in RCA, severe LV dysfunction, hypertension.","Blood clotting disorder, diverticulitis, history of smoking (34 years), type II diabetes, sleep apnea."
+77,100,F,53,18.6,52.2,168,None known.,Cholangiocarcinoma.
+78,102,F,14,39.6,79.8,142,None known.,Autonomic sensory neuropathy.
+79,103,M,68,42.3,141.5,183,"AF, hypertension, enlarged heart, ASD.","History of smoking (11 years), diabetes."
+80,104,F,60,23.4,63.7,165,None known.,History of smoking (46 years).
+81,105,M,62,23.5,73.5,177,History of CAD.,"History of prostate cancer, smoking (2 years)."
+82,106,F,72,28.0,64.6,152,"PAD, hypertension, CAD, CABG, PVD.","Chronic renal insufficiency, history of stroke, hypothyroidism, anemia, thrombocytopenia."
+83,108,M,61,21.8,69.0,178,None known.,"History of smoking (49 years), alcohol abuse, cirrhosis."
+84,109,F,68,24.4,68.7,168,None known.,History of asthma.
+85,110,F,61,32.6,86.6,163,None known.,"History of smoking (40 years), asthma, hypothyroidism."
+86,111,M,25,22.2,64.4,170,None known.,History of smoking (67 years) and substance abuse
+87,112,F,44,25.8,72.0,167,"Atherosclerotic heart disease, MI.","History of smoking (20 years), alcohol and substance abuse."
+88,115,M,62,23.5,68.0,170,"MI, hypertension, Triple Vessel Disease (CAD).",Diabetes.
+89,118,M,54,23.4,71.7,175,Acute MI.,"History of smoking (39 years) and alcohol abuse, dyslipidemia."
+90,119,F,46,23.5,54.4,152,"Cardiomyopathy, MI, CHF, CAD, hypertension (5 years).","Type II diabetes mellitus, history of stroke."
+91,120,F,58,24.1,68.0,168,Patent foramen ovale.,Diabetes mellitus (35 years).
+92,121,F,54,21.7,59.0,165,Proximal RCA stenosis.,"History of smoking (44 years), thyroid cancer."
+93,122,M,75,21.9,63.5,170,"Aortic Stenosis, AF.","Multiple System atrophy, primary sclerosing cholangitis."
+94,125,F,60,26.7,66.7,158,Hypertension (3 years).,"History of smoking (40+ years), COPD, history of diabetes and cancer."
+95,126,M,50,34.2,102.0,173,"Hypertension, mild epicardial CAD, LAD stenosis.","History of smoking (25 years), hypercholesterolemia, hypothyroidism."
+96,127,F,60,28.0,81.0,170,"MI, hypertension (5 years).","Diabetes mellitus, history of smoking (16 years), blood transfusion, hyperlipidemia."
+97,128,F,57,37.6,102.5,165,Hypertension.,"History of smoking (20+) years, type II diabetes mellitus, protein S deficiency, COPD, emphysema."
+98,130,F,70,28.9,71.8,158,Hypertension (8 years).,Hyperlipidemia.
+99,131,M,51,32.8,109.9,183,Hypertension.,"Diabetes, chronic kidney disease, hyperlipidemia."
+100,132,M,39,25.1,83.9,183,"CAD, hypertension (5 yrs), stent placed in LAD.",Type I diabetes mellitus.
+101,133,M,78,22.9,70.0,175,"CABG, AF, hypertension (10+ years), PAD, PVD, CAD (5 stents placed).","Hyperlipidemia, history of smoking (1 year), GERD."
+102,134,F,76,23.8,59.0,158,Hypertension (6+ years).,"History of breast cancer, hypothyroidism."
+103,135,M,65,30.3,96.0,178,Hypertension (36 years).,History of stroke.
+104,136,M,57,24.5,77.7,178,History of bacterial endocarditis.,History of smoking (38 years).
+105,137,F,47,32.6,86.6,163,"PAD, hypertension (20+ years), stent placement.","Type I diabetes mellitus, history of smoking (30 years), emphysema, renal failure, cancer."
+106,138,M,74,29.4,95.3,180,Hypertension (4 years).,"Hyperlipidemia, history of smoking (30 years)."
+107,139,F,57,23.9,61.1,160,None known.,"COPD, history of smoking (20+ years), cancer."
+108,140,F,78,29.0,72.0,158,None known.,"History of smoking (60 years), hypothyroidism."
+109,141,F,24,31.2,86.9,167,None known.,None known.
+110,142,M,14,20.1,56.0,167,None known.,None known.
+111,143,F,57,29.8,81.0,165,Hypertension (10+ yrs).,"History of smoking (40 yrs), hypothyroidism."
+112,144,-,,-,-,-,-,-
+113,145,M,53,35.7,112.0,177,None known.,None known.
+114,146,M,18,21.5,64.4,173,None known.,None known.
+115,147,F,61,32.0,77.0,155,None known.,None known.
+116,148,M,73,24.3,72.6,173,AF.,None known.
+117,149,-,-,-,-,-,-,-
+118,150,M,55,27.1,90.7,183,Hypertension (35 yrs).,None known.
+119,151,M,55,-,-,-,None known.,"Anemia, history of smoking, history of severl alcohol abuse."
+120,153,F,52,31.5,91.1,170,None known.,history of smoking (30+ yrs)
+121,155,F,78,23.3,63.5,165,Hypertension.,"Pulmonary embolus, chronic obstructive pulmonary disease, acute respiratory failure, hypercapnic, hypoxic, GERD, history of smoking."
+122,156,M,6,19.8,28.0,119,Heart murmur.,History of asthma.
+123,157,F,78,18.5,45.6,157,None known.,None known.
+124,158,F,72,26.9,77.8,170,Hypertension (15 yrs).,"Abdominal aotric aneurysm repair (10 yrs prior), history of smoking (20 yrs)."
+125,159,M,91,20.7,54.4,162,"Hypertension, heart murmur, cardiomypoathy.",None known.
+126,160,F,98,21.3,54.4,160,Hypertension.,"Diaphramic hernia, GERD."
+127,161,F,52,28.9,76.8,163,None known.,History of smoking (35 yrs).
+128,162,M,56,37.3,125.0,183,Hypertension (10 yrs).,High cholestrol.
+129,164,M,44,38.5,122.0,178,None known.,History of smoking (30 yrs).
+130,165,F,62,28.5,78.4,166,Hypertension (3 yrs).,"Diabetes insipidus, history of smoking (5 yrs), hyperthyroidism, hyperlipidemia."
+131,166,F,58,26.8,66.1,157,None known.,"History of asthma, history of smoking (40 yrs)."
+132,168,F,66,33.3,90.7,165,"History of tachycardia, hypertension.",Breast cancer.
+133,169,M,72,25.8,79.4,175,Hypertension.,"Brain Cancer, Lung cancer, Hyperlipidema, Anemia."
+134,170,F,62,26.4,78.9,173,"Aortic valve replacement (15 yrs prior), aortic dissection.","Diabetes Mellitus type II (2 yrs), history of stroke."
+135,171,M,58,33.5,102.5,175,Hypertension.,"History of smoking (11 yrs), Diabtes ( <1 yr)."
+136,172,F,89,22.1,54.4,157,Pacemaker.,Pancreatic cancer.
+137,173,F,86,16.2,36.3,150,"CAD (12 yrs), MI (12 yrs prior), 2 stents in RCA (12 yrs prior), Cerebrovascular disease, right carotic endarterecotmy, diastolic dysfunction, decreased LV systolic function.","Chronic kidney disease, GERD, Hyperlipidemia, ypothyroidism, monoclonal gammopathy."
+138,174,M,45,26.4,90.7,185,None known.,History of smoking (20 yrs).
+139,175,M,16,22.0,65.7,173,None known.,None known.
+140,176,M,61,25.9,74.8,170,None known.,None known.
+141,177,F,76,28.7,70.7,157,None known.,"Lyme's disease, asthma, GERD."
+142,178,-,-,-,-,-,-,-
+143,180,F,79,26.7,72.6,165,None known.,Lung cancer.
+144,181,F,70,44.0,127.4,170,None known.,"History of Smoking (55 yrs), hypothyroidism"
+145,182,F,79,-,-,-,Hypertension.,"GERD, Hyperlipidemia, anemia."
+146,183,F,49,31.6,78.5,158,"Hypertension, cardiac arrest, mitral valve disorder.",-
+147,185,F,68,26.6,84.1,178,"Mechanical tricuspid valve replacement (<1 yr), chronic AF, MAZE Procedure, AV node ablation, Pacemaker, CHF.","Pulmonary hyertension, hyperlipidemia, Anemia, Asthma, COPD."
+148,188,F,61,24.5,62.6,160,None known.,None known.
+149,190,M,62,31.2,96.0,175,None known.,History of smoking (14 yrs).
+150,191,M,45,30.6,99.0,180,"EF 65%, Mild tricupsid and mitral regurgitation, LV wall thickness 8mm, sinus tachycardia.",History of smoking (30 yrs).
+151,192,M,63,28.1,99.4,188,"Cardiac tamponade, aortic aneuryms repair, replaced aortic valve.",None known.
+152,193,F,55,26.7,65.9,157,Hypertension (1 yr).,History of asthma.
+153,194,M,67,16.8,54.5,180,None known.,"Diabetes mellitus type II, hypoalbuminemia."
+154,195,F,36,22.6,66.0,171,None known.,"History of smoking (1 yr), Ulcerative Colitis, asthma."
+155,196,M,42,25.8,77.1,173,None known.,None known.
+156,197,F,51,33.4,82.4,157,"Hypertension (8 yrs), CHF.","History of smoking (2 yrs), asthma, hiatal hernia."
+157,198,F,52,26.1,71.0,165,"MI (1 yr prior), stent (1 yr prior), CAD","Type I dibaetes mellitus, hisotry of smoking (30 yrs), Grave's Disease."
+158,199,F,46,41.8,125.0,173,Hypertension.,"History of smoking (35 yrs), Type II diabetes, history of substance abuse."
+159,200,-,-,-,-,-,-,-
+160,201,M,23,26.2,89.6,185,None known.,History of substance abuse.
+161,202,M,68,27.7,90.0,180,"Hypertension, CABG (8 yrs prior), PAD, Bare Metal Stent (4 yrs prior), ischemic cardiomyopathy, AF.","COPD, Kidney, history of smoking (8 yrs), Type II Diabetes, peripheral artery disease, hyperlipidemia."
+162,205,F,77,19.5,45.4,152,Hypertension (10+ yrs).,None known.
+163,206,F,61,23.2,71.0,175,Ablation for arrhythmia.,"History of smoking (20 yrs), COPD."
+164,209,M,56,23.0,72.7,178,None known.,History of smoking (42 yrs).
+165,210,M,53,27.3,88.3,180,None known.,History of smoking (30 yrs).
+166,211,F,55,39.8,98.0,157,None known.,"Fibromyalgia, History of smoking (40+ yrs)."
+167,212,F,66,20.3,53.7,163,None known.,"History of smoking (50 yrs), cancer."
+168,215,F,57,19.2,47.3,157,None known.,"Deep vein thrombosis, History of smoking (41 yrs), COPD."
+169,216,F,72,22.9,58.5,160,"Hypertension, Cardiac Ablation for AF.",Breast cancer.
+170,217,F,39,35.8,97.5,165,None known.,"GERD, MRSA, Brain cancer, History of smoking (15 yrs)."
+171,218,F,57,36.9,107.0,170,None known.,"COPD, History of smoking (45 yrs)."
+172,219,M,73,31.3,96.0,175,"CAD, Aortic aneurysm, stent placement, hypertension (3 yrs).",History of smoking (45-50).
+173,225,F,64,41.1,111.8,165,Hypertension.,"History of smoking (5 yrs), Diabetes, Parkinson's desease."
+174,229,F,44,31.5,83.8,163,Hypertension.,"History of smoking (28 yrs), microcytic anemia, Grave's Disease, hyperthyroidism."
+175,231,M,66,29.1,92.0,178,"Hypertension (10+ yrs), right carotid endarterctomy.","History of smoking (50 yrs), Deep Vein Thrombosis, Dyslipidemia."
+176,237,F,29,21.7,68.8,178,None known.,History of smoking (9 yrs).
+177,241,F,54,22.7,63.7,168,None known.,History of smoking (34 yrs).
+178,244,M,50,31.1,98.4,178,"Hypertension, MI (15 yrs prior), stenting, heart catheterization and angioplasty.","History of smoking (30+ yrs), high cholesterol."
+179,248,F,64,33.4,105.6,178,Hypertension.,"history of strokes, type II Diabetes, venous sinus thrombosis."
+180,251,M,58,31.8,97.3,175,"Defibrillator (5 yrs prior), chronic heart failure, cardiomyopathy, AVNRT.","Histoplasmosis, History of smoking, type II Diabetes, interstitial lung disease, COPD."
+181,255,M,60,-,-,-,-,-
+182,256,M,58,24.3,74.8,175,Hypertension (6 yrs).,"history of smoking (30 yrs), stroke (4 yrs prior)."
+183,259,M,41,28.2,99.8,188,Hypertension.,"hypercolesterolemia, Diabetes Mellitus Type 1, Hypoglucemia, hyperlipidema."
+184,261,F,64,34.0,97.0,169,Hypertension.,GERD.
+185,268,M,57,37.9,113.4,173,Hypertension.,"History of smoking (12 years), possibly history of rheumatic fever, hyperlipidemia, stroke (12 yrs prior)."
+186,274,M,43,28.4,97.1,185,Hypertension.,None known.
+187,276,F,70,29.5,83.4,168,Hypertension.,"Deep vein thrombosis, Hyperlipidemia."
+188,284,F,77,22.7,64.0,168,"Hypertension, AF.","History of rheumatic fever, stroke (5 yrs prior)."
+189,285,M,14,23.2,72.6,177,"Tetralogy of Fallot and VSD closure (14 yrs prior), bovine valve placement, RV-to-PA conduit, pulmonary stenosis/ insufficiency.",History of asthma.
+190,295,M,64,21.0,68.0,180,None known.,"Parkinson's disease, history of smoking (18 years), COPD."
