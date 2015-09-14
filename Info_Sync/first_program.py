@@ -149,9 +149,9 @@ def get_hearts():
 	all_trs = second_table2.find_all('tr')[1:]
 	#Filter out the number
 
-	added_hearts = [Heart("Heart0" + str(i)) for i in range(285,366)]
+	added_hearts = [Heart("Heart" + str(i).zfill(4)) for i in range(1,366)]
 
-	return [Heart("Heart" + tr.find('td').getText()) for tr in all_trs] + added_hearts
+	return added_hearts
 
 
 def get_all_pages():
@@ -250,7 +250,7 @@ with open("heart_results.csv", "w") as f:
 	f.write("Heart Number,Visible Heart (functional),Perfusion Fixed (endoscope),Anatomical Plates,Pre-fixed Anatomical Plates,Comparative Imaging,Cardiac MRI,Coronary Vasculature Models (Venous),Coronary Vasculature Models (Arterial),Coronary Vasculature Models (Both),Blood Volume and Tissue Models\n")
 	for heart in hearts:
 		if heart.functional or heart.perfusion or heart.anatomical_plate or heart.prefixed or heart.comp_imaging or heart.cardiac_mri or heart.cor_venous or heart.cor_arterial or heart.cor_both or heart.blood_vol:
-			f.write(heart.name[5:] + ",")
+			f.write('"' + heart.name[5:] + '"' + ",")
 			f.write("Yes," if heart.functional else ",")
 			f.write("Yes," if heart.perfusion else ",")
 			f.write("Yes," if heart.anatomical_plate else ",")
