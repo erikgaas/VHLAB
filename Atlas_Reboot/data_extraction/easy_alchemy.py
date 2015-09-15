@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine, ForeignKey, Table, Text, Enum
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, Float, Boolean, TIMESTAMP
+from sqlalchemy import Column, Integer, String, Float, Boolean, DateTime
 from sqlalchemy.orm import sessionmaker, relationship, backref
 
 engine = create_engine('sqlite:///:memory:', echo=True)
@@ -85,19 +85,17 @@ class Media(Base):
 	id = Column(Integer, primary_key=True)
 	item_name = Column(String)
 	media_type = Column(String)
-	date_created = Column(TIMESTAMP)
-	date_modified = Column(TIMESTAMP)
+	date_created = Column(DateTime)
+	date_modified = Column(DateTime)
 	file_name = Column(String)
 	description = Column(String)
 	rendered_flag = Column(Boolean)
 	labeled_flag = Column(Boolean)
 	html5_flag = Column(Boolean)
-	flag1 = Column(Boolean)
-	flag2 = Column(Boolean)
 	comment = Column(String)
 
 	heart_state = Column(String, Enum('functional', 'pre-fixed', 'fixed'))
-	img_type = Column(String, Enum('endoscope', 'external_img', 'mir', '3dmodel', 'comp_img'))
+	img_type = Column(String, Enum('endoscope', 'external_img', 'mri', '3dmodel', 'comp_img'))
 
 class Blood_Tissue_Model(Base):
 	__tablename__ = 'blood_tissue_model'

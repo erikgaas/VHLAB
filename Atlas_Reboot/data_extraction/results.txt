@@ -1,0 +1,331 @@
+CARDIAC RESULTS
+2 cabg operations (single and triple bypass grafts)
+2 stents in rca (12 yrs prior)
+3 coronary stents placed
+ablation for arrhythmia
+acute mi
+af
+af (3 yrs)
+af (5 yrs)
+aortic aneuryms repair
+aortic aneurysm
+aortic dissection
+aortic plaques near aortic branches and arch
+aortic stenosis
+aortic valve replacement (15 yrs prior)
+asd
+atherosclerosis of aorta
+atherosclerotic heart disease
+atrial fibrillation
+av node ablation
+avnrt
+bare metal stent (4 yrs prior)
+bi-ventricular pacemaker
+blood transfusion
+borderline rae
+bovine valve placement
+cabg
+cabg (8 yrs prior)
+cad
+cad (12 yrs)
+cad (5 stents placed)
+cardiac ablation for af
+cardiac arrest
+cardiac arrhythmia
+cardiac stents
+cardiac tamponade
+cardiomegaly
+cardiomyopathy
+cardiomypoathy
+cerebrovascular disease
+chf
+chronic af
+chronic heart failure
+decreased lv systolic function
+defibrillator (5 yrs prior)
+diastolic dysfunction
+dilated ivc
+drug-eluting stent in rca
+dyslipidemia
+ef 65%
+enlarged heart
+first degree av block
+heart catheterization and angioplasty
+heart murmur
+heart valve replacement
+hemochromatosis
+history of bacterial endocarditis
+history of blood transfusion
+history of cad
+history of mi
+history of tachycardia
+hypercholesterolemia
+hyperlidipemia
+hyperlipidemia
+hypertension
+hypertension (1 yr)
+hypertension (10 yrs)
+hypertension (10+ years)
+hypertension (10+ yrs)
+hypertension (15 yrs)
+hypertension (2 yrs)
+hypertension (20 yrs)
+hypertension (20+ years)
+hypertension (3 years)
+hypertension (3 yrs)
+hypertension (30+ years)
+hypertension (35 yrs)
+hypertension (36 years)
+hypertension (4 years)
+hypertension (5 years)
+hypertension (5 yrs)
+hypertension (6 yrs)
+hypertension (6+ years)
+hypertension (7-8 yrs)
+hypertension (8 years)
+hypertension (8 yrs)
+hypotension
+hypothyroidism
+implanted defibrillator w/leads and can attached
+inferior infarct
+ischemic cardiomyopathy
+lad stenosis
+lae
+left internal carotid artery occlusion
+lv wall thickness 8mm
+lvh
+maze procedure
+mechanical aortic valve
+mechanical tricuspid valve replacement (<1 yr)
+mi
+mi (1 yr prior)
+mi (12 yrs prior)
+mi (15 yrs prior)
+mild enlargement of heart
+mild epicardial cad
+mild tricupsid and mitral regurgitation
+mitral valve disorder
+moderate lvh
+moderate to severe aortic plaque
+no other cardiac history known
+non-ischemic myopathy
+pacemaker
+pad
+patent foramen ovale
+proximal rca stenosis
+pulmonary stenosis/ insufficiency
+pvd
+qrs widening
+ra & rv lesion
+replaced aortic valve
+right carotic endarterecotmy
+right carotid endarterctomy
+rv-to-pa conduit
+semilunar valvular regurgitation
+severe lv dysfunction
+severe rca cad
+short term pacemaker
+significant tachycardia
+sinus bradycardia
+sinus bradycardia with sinus arrhythmia
+sinus tachycardia
+stent (1 yr prior)
+stent placed in lad
+stent placement
+stenting
+tachycardia
+tetralogy of fallot and vsd closure (14 yrs prior)
+transient eschemic attack and strokes
+transient ischemic attack
+triple vessel disease (cad)
+unspecified heart disease
+unspecified heart murmur medication
+valve dysfunction
+ventrical hypertrophy
+
+
+SYSTEMIC RESULTS
+abdominal aotric aneurysm repair (10 yrs prior)
+acute respiratory failure
+adult onset diabetes chronic renal failure
+alcohol abuse
+alcohol and substance abuse
+anemia
+arthritis
+asthma
+autonomic sensory neuropathy
+blood clotting disorder
+blood transfusion
+brain cancer
+brain metastasis
+breast cancer
+bronchiogenic metastatic cancer
+cacinoma of lung with metastasis
+cancer
+cerebrovascular disease
+cerebrovascular hemorrhage
+cholangiocarcinoma
+chronic airway obstruction
+chronic kidney disease
+chronic obstructive pulmonary disease
+chronic renal insufficiency
+cirrhosis
+colon cancer
+colon cancer with metastasis
+copd
+deep vein thrombosis
+diabetes
+diabetes insipidus
+diabetes mellitus
+diabetes mellitus (35 years)
+diabetes mellitus type i
+diabetes mellitus type ii
+diabetes mellitus type ii (2 yrs)
+diabtes ( <1 yr)
+diaphramic hernia
+diverticulitis
+dyslipidemia
+elevated cholesterol
+emphysema
+end stage copd
+fibromyalgia
+gastroesophageal reflux disease
+gerd
+grave's disease
+hemachromatosis
+hiatal hernia
+high cholesterol
+high cholestrol
+hisotry of smoking (30 yrs)
+histoplasmosis
+history of asthma
+history of breast cancer
+history of copd
+history of diabetes and asthma
+history of diabetes and cancer
+history of hydrocephalus
+history of leukemia and chemotherapy
+history of obesity
+history of prostate cancer
+history of rheumatic fever
+history of severl alcohol abuse
+history of smoking
+history of smoking (1 year)
+history of smoking (1 yr)
+history of smoking (10 years)
+history of smoking (10 years) and alcohol abuse
+history of smoking (11 years)
+history of smoking (11 yrs)
+history of smoking (12 years)
+history of smoking (14 yrs)
+history of smoking (15 yrs)
+history of smoking (16 years)
+history of smoking (18 years)
+history of smoking (2 yrs)
+history of smoking (20 years)
+history of smoking (20 yrs)
+history of smoking (20+ years)
+history of smoking (20+) years
+history of smoking (25 years)
+history of smoking (28 yrs)
+history of smoking (30 years)
+history of smoking (30 yrs)
+history of smoking (30+ yrs)
+history of smoking (34 years)
+history of smoking (34 yrs)
+history of smoking (35 yrs)
+history of smoking (38 years)
+history of smoking (39 years) and alcohol abuse
+history of smoking (40 years)
+history of smoking (40 yrs)
+history of smoking (40+ years)
+history of smoking (40+ yrs)
+history of smoking (41 yrs)
+history of smoking (42 yrs)
+history of smoking (43 years)
+history of smoking (44 years)
+history of smoking (45 yrs)
+history of smoking (45-50)
+history of smoking (46 years)
+history of smoking (49 years)
+history of smoking (5 years)
+history of smoking (5 yrs)
+history of smoking (50 yrs)
+history of smoking (55 years)
+history of smoking (55 yrs)
+history of smoking (60 years)
+history of smoking (67 years) and substance abuse
+history of smoking (8 yrs)
+history of smoking (9 yrs)
+history of smoking and alcohol abuse
+history of smoking and alcoholism
+history of smoking and substance abuse
+history of stoke (5 years prior)
+history of stroke
+history of strokes
+history of substance abuse
+history of tobacco use
+history of tobacco use (44 years)
+history of ventilator dependence and tracheostomy
+history tobacco use (20 years)
+hypercapnic
+hypercholesterolemia
+hypercolesterolemia
+hyperlipidemia
+hyperthyroidism
+hypoalbuminemia
+hypoglucemia
+hyponatremia
+hypothyroidism
+hypoxic
+interstitial lung disease
+intestinal pseudo-obstruction
+kidney disease
+kidney removal
+left mca aneurysm
+lung cancer
+lung carcinoma
+lyme's disease
+microcytic anemia
+middle cerebral artery ischemic infarction with hemorrhagic transformation
+monoclonal gammopathy
+mrsa
+multi-organ system failure
+multiple system atrophy
+non-hodgkins lymphoma
+non-small cell lung cancer
+osteoarthritis
+osteoporosis
+osteroperosis
+pancreatic cancer
+pancreatitis
+parkinson's disease
+peripheral artery disease
+possibly history of rheumatic fever
+previous aneurism 25 years ago
+previous cerebrovascular accident with left hemiplegia
+primary sclerosing cholangitis
+protein s deficiency
+pulmonary embolus
+pulmonary fibrosis
+pulmonary hyertension
+quadriplegia
+recurrent pneumonia
+renal cancer
+renal failure
+rheumatoid arthritis
+seizure disorder
+sepsis syndrome
+sleep apnea
+smoking (2 years)
+stroke
+stroke (12 yrs prior)
+stroke (4 yrs prior)
+stroke (5 yrs prior)
+systemis lupus
+thrombocytopenia
+thyroid cancer
+type i diabetes mellitus
+type ii diabetes mellitus
+ulcerative colitis
+venous sinus thrombosis
