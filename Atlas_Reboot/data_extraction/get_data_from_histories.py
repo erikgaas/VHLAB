@@ -1,4 +1,4 @@
-
+import re
 
 
 #Delete all "Non known" occurances. Also "-"
@@ -21,12 +21,18 @@ def convert_element(element):
 	split_element = [i.strip(' .').lower() for i in element.split(',') if i != '-' and i.strip(' .').lower() != 'none known']
 	return split_element
 
+
+cardiac_result = sorted(set(sum([convert_element(disease) for disease in cardiac_diseases], [])))
+systemic_result = sorted(set(sum([convert_element(disease) for disease in systemic_diseases], [])))
+
 with open('results.txt', 'w') as results_file:
-	cardiac_result = sorted(set(sum([convert_element(disease) for disease in cardiac_diseases], [])))
-	systemic_result = sorted(set(sum([convert_element(disease) for disease in systemic_diseases], [])))
 	results_file.write('CARDIAC RESULTS\n')
 	for element in cardiac_result:
 		results_file.write(element + '\n')
 	results_file.write('\n\nSYSTEMIC RESULTS\n')
 	for element in systemic_result:
 		results_file.write(element + '\n')
+
+		
+#need regular expression to deal with severity and years
+
