@@ -31,6 +31,8 @@ class Cardiac_Disease(Base):
 
 	heart_hist = relationship("Heart_Hist", backref=backref('cardiac_diseases', order_by=id))
 
+#Consider adding table only for cardiac diseases
+
 class Systemic_Diseases(Base):
 	__tablename__ = 'systemic_diseases'
 
@@ -41,6 +43,8 @@ class Systemic_Diseases(Base):
 	comment = Column(String)
 
 	heart_hist = relationship("Heart_Hist", backref=backref('systemic_diseases', order_by=id))
+
+#Consider adding table only for systemic diseases.
 
 group_to_regions = Table('group_to_regions', Base.metadata,
 	Column('group_id', Integer, ForeignKey('Region_Group.id')),
@@ -95,16 +99,23 @@ class Media(Base):
 	heart_state = Column(String, Enum('functional', 'pre-fixed', 'fixed'))
 	img_type = Column(String, Enum('endoscope', 'external_img', 'mir', '3dmodel', 'comp_img'))
 
+class Blood_Tissue_Model(Base):
+	__tablename__ = 'blood_tissue_model'
 
-# class Media_To_Region(Base):
-# 	__tablename__ = 'media_to_group'
+	id = Column(Integer, primary_key=True)
+	media_id = Column(String, ForeignKey('Media.id'))
+	heart_state = Column(String, Enum('Hypertrophic', 'Dilated Cardiomyopathy', 'Normal', 'Pediatric'))
+
+	blood_tissue_models = relationship('Media', backref=backref('blood_tissue_models', order_by=id))
 
 
+class Coronary_Model(Base):
+	__tablename__ = 'coronary_model'
+	id = Column(String, primary_key=True)
+	media_id = Column(String, ForeignKey('Media.id'))
+	coronary_view = Column(String, Enum('Venous', 'Arterial', 'Combined'))
 
-#class Blood_Tissue_Model
-
-#class Coronary_Model
-
+	coronary_models = relationship('Media', backref=backref('coronary_models', order_by=id))
 
 Session = sessionmaker(bind=engine)
 session = Session()
