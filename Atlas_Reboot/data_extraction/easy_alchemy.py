@@ -1,9 +1,9 @@
-from sqlalchemy import create_engine, ForeignKey
-from sqlqlchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, Float
+from sqlalchemy import create_engine, ForeignKey, Table, Text, Enum
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, Integer, String, Float, Boolean, TIMESTAMP
 from sqlalchemy.orm import sessionmaker, relationship, backref
 
-engine = create_engine('sqlite:///:memory:', echo=True))
+engine = create_engine('sqlite:///:memory:', echo=True)
 
 Base = declarative_base()
 
@@ -18,6 +18,7 @@ class Heart_Hist(Base):
 	bmi = Column(Integer)
 	weight = Column(Float)
 	height = Column(Integer)
+	comment = Column(String)
 
 
 class Cardiac_Disease(Base):
@@ -26,6 +27,7 @@ class Cardiac_Disease(Base):
 	heart_number = Column(String, ForeignKey('Heart_Hist.heart_number'))
 	years = Column(Integer)
 	severity = Column(String, Enum('mild', 'moderate', 'severe'))
+	comment = Column(String)
 
 	heart_hist = relationship("Heart_Hist", backref=backref('cardiac_diseases', order_by=id))
 
@@ -36,18 +38,68 @@ class Systemic_Diseases(Base):
 	heart_number = Column(String, ForeignKey('Heart_Hist.heart_number'))
 	years = Column(Integer)
 	severity = Column(String, Enum('mild', 'moderate', 'severe'))
+	comment = Column(String)
 
 	heart_hist = relationship("Heart_Hist", backref=backref('systemic_diseases', order_by=id))
 
-#class Region_Group(Base):
+group_to_regions = Table('group_to_regions', Base.metadata,
+	Column('group_id', Integer, ForeignKey('Region_Group.id')),
+	Column('region_id', Integer, ForeignKey('Region.id'))
+	)
 
-#class Region(Base):
+class Region_Group(Base):
+	__tablename__ = 'region_group'
 
-#class Group_To_Region
+	id = Column(Integer, primary_key=True)
+	name = Column(String)
+	description = Column(String)
+	img_path = Column(String)
 
-#class Media(Base):
+	regions = relationship('Region', secondary=group_to_regions, backref='regions')
+	#need group_regions
 
-#class Media_To_Region
+region_to_media = Table('region_to_media', Base.metadata,
+	Column('region_id', Integer, ForeignKey('Region.id')),
+	Column('media_id', Integer, ForeignKey('Media.id'))
+	)
+
+
+class Region(Base):
+	__tablename__ = 'region'
+
+	id = Column(Integer, primary_key=True)
+	name = Column(String)
+	description = Column(String)
+	img_path = Column(String)
+
+	medias = relationship('Media', secondary=region_to_media, backref='region_media')
+	#need region_to_media
+
+class Media(Base):
+	__tablename__ = 'media'
+
+	id = Column(Integer, primary_key=True)
+	item_name = Column(String)
+	media_type = Column(String)
+	date_created = Column(TIMESTAMP)
+	date_modified = Column(TIMESTAMP)
+	file_name = Column(String)
+	description = Column(String)
+	rendered_flag = Column(Boolean)
+	labeled_flag = Column(Boolean)
+	html5_flag = Column(Boolean)
+	flag1 = Column(Boolean)
+	flag2 = Column(Boolean)
+	comment = Column(String)
+
+	heart_state = Column(String, Enum('functional', 'pre-fixed', 'fixed'))
+	img_type = Column(String, Enum('endoscope', 'external_img', 'mir', '3dmodel', 'comp_img'))
+
+
+# class Media_To_Region(Base):
+# 	__tablename__ = 'media_to_group'
+
+
 
 #class Blood_Tissue_Model
 
