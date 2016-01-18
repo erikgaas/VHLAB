@@ -21,7 +21,7 @@ class Heart_Hist(Base):
 	comment = Column(String)
 
 
-class Cardiac_Disease(Base):
+class Cardiac_Disease(Base): #Consider adding table only for cardiac diseases
 	__tablename__ = 'cardiac_disease'
 	id = Column(Integer, primary_key=True)
 	heart_number = Column(String, ForeignKey('Heart_Hist.heart_number'))
@@ -31,9 +31,9 @@ class Cardiac_Disease(Base):
 
 	heart_hist = relationship("Heart_Hist", backref=backref('cardiac_diseases', order_by=id))
 
-#Consider adding table only for cardiac diseases
 
-class Systemic_Diseases(Base):
+
+class Systemic_Diseases(Base): #Consider adding table only for systemic diseases.
 	__tablename__ = 'systemic_diseases'
 
 	id = Column(Integer, primary_key=True)
@@ -44,7 +44,7 @@ class Systemic_Diseases(Base):
 
 	heart_hist = relationship("Heart_Hist", backref=backref('systemic_diseases', order_by=id))
 
-#Consider adding table only for systemic diseases.
+
 
 group_to_regions = Table('group_to_regions', Base.metadata,
 	Column('group_id', Integer, ForeignKey('Region_Group.id')),
@@ -94,8 +94,8 @@ class Media(Base):
 	html5_flag = Column(Boolean)
 	comment = Column(String)
 
-	heart_state = Column(String, Enum('functional', 'pre-fixed', 'fixed'))
-	img_type = Column(String, Enum('endoscope', 'external_img', 'mri', '3dmodel', 'comp_img'))
+	heart_state = Column(String, Enum('functional', 'pre-fixed', 'fixed')) #plastination happens after fixed. So fixed is consistent yay.
+	img_type = Column(String, Enum('endoscope', 'external_img', 'mri', '3dmodel', 'comp_img')) #External img is a bad name, but whatever. maybe fix later
 
 class Blood_Tissue_Model(Base):
 	__tablename__ = 'blood_tissue_model'

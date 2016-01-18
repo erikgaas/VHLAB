@@ -1,0 +1,10 @@
+Right Atrium,Right Ventricle,Pulmonary Artery,Left Atrium,Left Ventricle,Aorta,Coronary Arteries,Cardiac Veins,External Images
+Right Atrial Appendage,Coronary Sinus Ostium,Crista Terminalis,Fossa Ovalis,Inferior Vena Cava Ostium,Interatrial Septum,Lateral Wall,Triangle of Koch,Tricuspid Valve
+Apex,Inflow Tract,Moderator Band,Papillary Muscles,Right Ventricular Outflow Tract,Tricuspid Valve
+Pulmonary Trunk,Pulmonary Valve,Distal Pulmonary Branches
+Fossa Ovalis,Left Atrial Appendage,Mitral Valve,Pulmonary Vein Ostia,Pulmonary Vein Distal Pulmonary Branches
+Aortic Valve,Apex,Free Wall,Left Ventricle Bands,Mitral Valve,Papillary Muscles,Interventricular Septum
+Aortic Valve,Ascending Aorta,Coronary Artery Ostia
+Coronary Artery Ostia,Right Coronary Artery,Left Coronary Artery,Left Anterior Descending Artery,Circumflex Artery
+Coronary Sinus Ostium,Coronary Sinus,Posterior Interventricular Vein,Posterior Vein of the Left Ventricle,Left Marginal Vein,Great Cardiac Vein
+Anterior,Posterior,Right Margin,Left Margin

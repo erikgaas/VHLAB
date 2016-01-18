@@ -36,3 +36,4 @@ with open('results.txt', 'w') as results_file:
 		
 #need regular expression to deal with severity and years
 
+#Three groups: (severity) (condition) (years)

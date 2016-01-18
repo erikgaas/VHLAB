@@ -1,0 +1,11 @@
+{
+  "name": "heart_atlas",
+  "version": "0.0.0",
+  "description": "New VHLAB heart atlas website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
