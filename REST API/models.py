@@ -46,7 +46,7 @@ class LargeRegion(Base):
 	description = Column(Text)
 	media_id = Column(Integer, ForeignKey('media.id'))
 
-	small_regions = relationship('SmallRegion', backref="large_region")
+	small_regions = relationship('SmallRegion', backref='large_region')
 
 	@property
 	def serialize(self):
@@ -68,7 +68,9 @@ class SmallRegion(Base):
 	description = Column(Text)
 	media_id = Column(Integer, ForeignKey('media.id'))
 
-	media = relationship(Integer, backref='small_region')
+	cover_media = relationship(Integer, backref='small_region')
+
+	media = relationship('ImageTarget', backref='image_targets')
 
 	@property
 	def serialize(self):
@@ -87,7 +89,7 @@ class ImageMode(Base):
 	description = Column(Text)
 	media_id = Column(Integer, ForeignKey('media.id'))
 
-	image_targets = relationship('ImageTarget', backref="image_mode")
+	
 
 	@property
 	def serialize(self):
@@ -106,6 +108,9 @@ class ImageTarget(Base):
 	image_mode_id = Column(Integer, ForeignKey('image_mode.id'))
 	media_id = Column(Integer, ForeignKey('media.id'))
 
+	media = relationship('Media', backref='image_target')
+	medias = relationship('ImageTarget', backref='image_targets')
+
 
 	@property
 	def serialize(self):
@@ -117,18 +122,23 @@ class ImageTarget(Base):
 	
 
 
-
 class Media(Base):
 	__tablename__ = 'media'
 
 	id = Column(Integer, primary_key=True)
+	#HN_ID is a nullable FQ
 	HN_ID = Column(Integer, ForeignKey('Hearts'), nullable=True)
+	#Nullable FQ for ImageTarget and for Small region
+	small_region_id = Column(Integer, ForeignKey('SmallRegion'), nullable=True)
+	image_target_id = Column(Integer, ForeignKey('ImageTarget'), nullable=True)
+
+
 	name = Column(String(50))
 	video_source = Column(String(50))
 	still_source = Column(String(50))
 	#Dates?
 	description = Column(Text)
-	heart_type = Column(Enum('functional', "perf-fixed", "comp-img", "plate", "pre-plate", "graphic", "venous", "aterial", "combined", "hypertrophic", "dilated-cardiomyopathy", "normal", "pediatric"))
+	heart_type = Column(Enum('functional', 'perf-fixed', 'comp-img', 'plate', 'pre-plate', 'graphic', 'venous', 'aterial', 'combined', 'hypertrophic', 'dilated-cardiomyopathy', 'normal', 'pediatric'))
 
 	large_region = relationship('LargeRegion', backref='media')
 	small_region = relationship('SmallRegion', backref='media')
